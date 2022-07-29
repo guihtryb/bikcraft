@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000;
+  background-color: var(--color-12);
 }
 
 .header {
@@ -25,9 +25,7 @@
   display: inline-block;
   display: block;
   padding: 1rem 0;
-  color: #fff;
   transition: all ease 0.2s;
-  font-size: 1.125rem;
   position: relative;
 }
 
@@ -37,8 +35,9 @@
   height: 0.125rem;
   width: 0%;
   transition: all ease 0.3s;
-  background: #fff;
   position: absolute;
+  background: var(--color-0);
+
 }
 
 .header-menu a:hover:after {
@@ -46,7 +45,6 @@
   display: block;
   height: 0.125rem;
   width: 100%;
-  background: #fff;
 }
 
 @media (max-width : 800px) {
@@ -55,7 +53,7 @@
   }
 
   .header-menu a {
-    background: #111;
+    background: var(--color-11);
     padding: 0.75rem 1rem;
     border-radius: 0.25rem;
   }
@@ -65,7 +63,7 @@
   }
 
   .header-menu a:hover {
-    background: #2e2e2e;
+    background: var(--color-10);
   }
 
 
@@ -77,7 +75,7 @@
   }
 
   .header-menu a {
-    background: #111;
+    background: var(--color-11);
     font-size: 0.865rem;
     padding: 0.75rem 1rem;
     border-radius: 0.25rem;

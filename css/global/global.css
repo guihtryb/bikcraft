@@ -6,7 +6,16 @@
   text-decoration: none;
 }
 
+body {
+  padding-bottom: 600px;
+}
+
 img {
   max-width: 100%;
   display: block;
+}
+
+a {
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+  color: inherit;
 }
