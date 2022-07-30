@@ -75,3 +75,22 @@
     font-weight: 400;
   }
 }
+
+.custom-button.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.custom-button.arrow::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icons/arrow.svg");
+  transition: transform 0.2s;
+}
+
+.custom-button.arrow:hover::after {
+  transform: translateX(6px);
+}
