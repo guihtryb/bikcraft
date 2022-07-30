@@ -10,11 +10,22 @@
   line-height: 1.33;
   padding: 1rem 2rem;
   text-transform: uppercase;
+  width: max-content;
 }
 
 .custom-button:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+
+.custom-button.secundary {
+  background: var(--color-10);
+  color: var(--color-2);
+}
+
+.custom-button.secundary:hover {
+  background: var(--color-9);
+}
+
 
 @media (max-width: 600px) {
   .custom-button {
