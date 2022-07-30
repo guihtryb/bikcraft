@@ -1,3 +1,6 @@
+@import './benefits.css';
+@import './questions.css';
+
 .secures-bg {
   background: var(--color-11);
 }
