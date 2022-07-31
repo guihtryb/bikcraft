@@ -38,6 +38,11 @@ button.custom-button {
   }
 }
 
+.title {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+}
+
+
 .link {
   display: inline-block;
   color: var(--color-p1);
