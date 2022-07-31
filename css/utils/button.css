@@ -11,6 +11,7 @@
   padding: 1rem 2rem;
   text-transform: uppercase;
   width: max-content;
+  cursor: pointer;
 }
 
 .custom-button:hover {
@@ -26,6 +27,9 @@
   background: var(--color-9);
 }
 
+button.custom-button {
+  border: none;
+}
 
 @media (max-width: 600px) {
   .custom-button {
