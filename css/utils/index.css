@@ -1,6 +1,7 @@
 @import './button.css';
 @import './tipography.css';
 @import './colors.css';
+@import './form.css';
 
 .container {
   box-sizing: border-box;
