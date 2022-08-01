@@ -4,7 +4,7 @@ const resetActivedQuestion = () => {
 
   if (prevAnswerActived) {
     prevAnswerActived.classList.remove('active');
-    prevQuestionActived.setAttribute('aria-expanded', false)
+    prevQuestionActived.setAttribute('aria-expanded', false);
   }
 };
 

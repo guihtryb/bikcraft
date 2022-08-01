@@ -17,7 +17,7 @@ const initGallery = () => {
   gallery.forEach(galleryEvents);
 };
 
-if(window.SimpleAnime) {
+if (window.SimpleAnime) {
   new SimpleAnime();
 }
 
