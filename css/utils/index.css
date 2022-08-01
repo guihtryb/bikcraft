@@ -2,6 +2,7 @@
 @import './tipography.css';
 @import './colors.css';
 @import './form.css';
+@import './animations.css';
 
 .container {
   box-sizing: border-box;
